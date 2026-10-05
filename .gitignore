@@ -1,0 +1,7 @@
+# Local-only secrets — never commit
+youtube-api-key.md
+
+# macOS / Python junk
+.DS_Store
+__pycache__/
+*.pyc
