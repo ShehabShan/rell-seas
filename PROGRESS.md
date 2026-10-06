@@ -9,7 +9,7 @@ Read this first, every session. Update it at the end of every session.
 - Phase 3 — Concepts: done (reviewed 3 passes; final: PASS) — G7 resolved per owner directive (English-only + static PT/FR/ES blurb + partner-not-poach, no ongoing non-EN moderation)
 - Phase 4 — Stress test: done (@reviewer 1 pass, PASS, MUST-FIX none) — Long Watch recommended (27), Crucible runner-up (24), Ledger 23, Harbor 22
 - Phase 5 — Blueprint: done (@reviewer 1 pass, NEEDS REVISION, MUST-FIX 3 applied directly, no second pass) — Long Watch + Crucible/Harbor/Ledger borrowings, G7 generic + human-checked, private-log-only
-- Phase 6 — Discord setup script: not briefed yet
+- Phase 6 — Discord setup script: 6a dry-run done (brief + plan, @fact-checker onboarding finding, @reviewer 1 pass NEEDS REVISION with 4 MUST-FIX applied, no second pass); no live creates, `.env` unread
 - Models: builder = opencode/muse-spark-1.3-contributor-free (temporary); reviewer = vercel/openai/gpt-5.2 (permanent); fact-checker = opencode/muse-spark-1.3-contributor-free with bash:allow
 
 ## Next action
@@ -43,3 +43,4 @@ Append one line per session: `date — phase — what was done — output file`.
 - 2026-10-06 — Phase 4 — stress test (4 concepts × 6 rubric rows, Long Watch recommended; @reviewer 1 pass PASS) — build/phase-4-stress-test.md
 - 2026-10-06 — Phase 4 review record — saved @reviewer verdict (PASS, MUST-FIX none) to build/reviews/ — build/reviews/phase-4-stress-test.md
 - 2026-10-06 — Phase 5 — final blueprint (Long Watch + borrowings, G7 generic + human-checked, private-log-only; @reviewer 1 pass NEEDS REVISION, 3 MUST-FIX applied, no second pass) — build/phase-5-blueprint.md
+- 2026-10-06 — Phase 6a — server-build brief + dry-run plan (no MCP/discord.py/discord.js → direct REST for execution; onboarding auto-role NO per in-session check ses_eef7b9390ffe7jBaAyrJGbFZGl, ledger pending; @reviewer 1 pass NEEDS REVISION, 4 MUST-FIX applied; live untouched, .env unread) — build/phase-6a-dry-run.md
