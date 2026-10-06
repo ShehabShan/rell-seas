@@ -6,14 +6,14 @@ Read this first, every session. Update it at the end of every session.
 - Setup (AGENTS.md, agents, skills, fact-ledger): done
 - Phase 1 — Shard digests: 12/12 shards done (S01–S12)
 - Phase 2 — Synthesis: done (reviewed 3 passes; final: brief criteria PASS, AGENTS must-fix citations corrected)
-- Phase 3 — Concepts: not started (CHECKPOINT — owner go-ahead required before starting)
+- Phase 3 — Concepts: done (reviewed 3 passes; final: PASS) — G7 resolved per owner directive (English-only + static PT/FR/ES blurb + partner-not-poach, no ongoing non-EN moderation)
 - Phase 4 — Stress test: not started
 - Phase 5 — Blueprint: not started
 - Phase 6 — Discord setup script: not briefed yet
 - Models: builder = opencode/muse-spark-1.3-contributor-free (temporary); reviewer = vercel/openai/gpt-5.2 (permanent); fact-checker = opencode/muse-spark-1.3-contributor-free with bash:allow
 
 ## Next action
-Phase 2 complete and reviewed — CHECKPOINT. Owner reviews build/phase-2-synthesis.md before Phase 3 Concepts begins.
+Phase 3 complete and reviewed (PASS) — report to owner, move to Phase 4 only on request.
 
 ## Open questions / blockers
 (none — fact-checker and reviewer smoke tests passed; probe artifacts removed)
@@ -37,4 +37,5 @@ Append one line per session: `date — phase — what was done — output file`.
 - 2026-10-06 — Phase 1 S11 — shard digest (INS-129–INS-139) — build/digests/shard-S11-digest.md
 - 2026-10-06 — Phase 1 S12 — shard digest (INS-140–INS-152) — build/digests/shard-S12-digest.md
 - 2026-10-06 — Phase 2 — master synthesis (14 needs, 11 conflicts, 10 gaps; @reviewer 3 passes) — build/phase-2-synthesis.md
-- 2026-10-06 — Phase 2 review record — recovered @reviewer verdict (needs revision) to build/reviews/ — build/reviews/phase-2-synthesis.md
+- 2026-10-06 — Phase 3 — four concepts (Ledger House / Crucible / Harbor / Long Watch; @reviewer 3 passes, final PASS) — build/phase-3-concepts.md
+- 2026-10-06 — Phase 3 review record — saved @reviewer final verdict (PASS) to build/reviews/ — build/reviews/phase-3-concepts.md
