@@ -1,6 +1,7 @@
 # Local-only secrets — never commit
 youtube-api-key.md
 opencode.json.bak
+.env
 
 # macOS / Python junk
 .DS_Store
