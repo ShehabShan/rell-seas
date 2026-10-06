@@ -29,3 +29,11 @@ SOURCE: https://support.discord.com/hc/en-us/articles/11074987197975-Community-O
 CHECKED: 2026-10-06
 TAG: VERIFIED
 ---
+---
+Q: What is the exact mechanism by which Community Onboarding grants roles — automatic on completion, or only via answer-linked role picks?
+VERDICT: CONFIRMED
+ANSWER: Only via answer-linked picks — "When a member picks that answer, they will be granted those roles and those channels will be added to their channel list!"; priors read different articles (Onboarding FAQ vs Verification Levels gates chat/voice), so the Onboarding sentence settles it.
+SOURCE: https://support.discord.com/hc/en-us/articles/11074987197975-Community-Onboarding-FAQ, https://support.discord.com/hc/en-us/articles/216679607-Verification-Levels
+CHECKED: 2026-10-06
+TAG: VERIFIED
+---
