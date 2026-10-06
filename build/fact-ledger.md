@@ -21,3 +21,11 @@ SOURCE: https://www.roblox.com/games/7089993809/RELL-Seas, https://rellseaswiki.
 CHECKED: 2026-10-06
 TAG: VERIFIED
 ---
+---
+Q: Can Server Settings → Onboarding assign a role automatically when a member completes onboarding, independent of verification level?
+VERDICT: CONFIRMED
+ANSWER: Yes — Community Onboarding grants the roles linked to a member's chosen answers when they complete onboarding; Verification Levels separately gate sending messages and joining voice, not the role grant.
+SOURCE: https://support.discord.com/hc/en-us/articles/11074987197975-Community-Onboarding-FAQ, https://support.discord.com/hc/en-us/articles/216679607-Verification-Levels
+CHECKED: 2026-10-06
+TAG: VERIFIED
+---

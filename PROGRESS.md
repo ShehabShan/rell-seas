@@ -44,3 +44,4 @@ Append one line per session: `date — phase — what was done — output file`.
 - 2026-10-06 — Phase 4 review record — saved @reviewer verdict (PASS, MUST-FIX none) to build/reviews/ — build/reviews/phase-4-stress-test.md
 - 2026-10-06 — Phase 5 — final blueprint (Long Watch + borrowings, G7 generic + human-checked, private-log-only; @reviewer 1 pass NEEDS REVISION, 3 MUST-FIX applied, no second pass) — build/phase-5-blueprint.md
 - 2026-10-06 — Phase 6a — server-build brief + dry-run plan (no MCP/discord.py/discord.js → direct REST for execution; onboarding auto-role NO per in-session check ses_eef7b9390ffe7jBaAyrJGbFZGl, ledger pending; @reviewer 1 pass NEEDS REVISION, 4 MUST-FIX applied; live untouched, .env unread) — build/phase-6a-dry-run.md
+- 2026-10-06 — Phase 6a fixup — saved review record to build/reviews/, @fact-checker wrote onboarding-role ledger entry (CONFIRMED), added git-add discipline line to AGENTS.md — build/reviews/phase-6a-server-build.md
