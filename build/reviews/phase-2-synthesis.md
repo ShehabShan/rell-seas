@@ -1,40 +1,22 @@
 # Review — build/phase-2-synthesis.md
-
 VERDICT: needs revision
 
-Scope checked against: build/briefs/phase-2-synthesis.md + AGENTS.md
+Provenance: content below is the `@reviewer` verdict returned verbatim 2026-10-06 (single bounded pass). The reviewer was instructed to write this path directly; local verification (unchanged mtime/md5 13:58:18) showed its sandbox write does not propagate to this workspace, so the returned verbatim text is saved here unedited. Builder added nothing except this header.
 
-Transcription note: this record contains the `@reviewer` verdict returned 2026-10-06. The reviewer subagent reported writing this file but the write did not land on disk (sandbox path issue), so the builder transcribed the returned verdict verbatim below. Content is the reviewer's, not the builder's.
+STRONG:
+- Ranked needs are clearly labeled (N1–N12) and usually anchored with concrete volumes (e.g., INS-015 vol 7728 in N1; sentiment topic/cluster volumes throughout), matching Phase-2’s ranked-needs requirement.
+- Conflicts are explicitly enumerated (C1–C11) with a stated winner/handling rule and rationale; C7 correctly applies AGENTS.md hierarchy by letting `comment-sentiment-findings.md` override `discord-architecture-research.md`.
+- Gaps section is comprehensive and appropriately treats uncertain items as RUMOR/UNVERIFIED/SPECULATION (e.g., G3/G4), aligning with source discipline.
 
-## Criteria (PASS/FAIL)
+WEAK:
+- **Server-design leakage:** N12 includes solution-structures: “ticket routing” and “charter-with-appeals” (line 39–40); N11 similarly lists “closed-loop response posts” / “weekly small updates” (line 37). Phase-2 brief says “No server design yet,” so even as provenance this is too implementation-shaped.
+- **Unsourced mechanics/access digit claim:** G2 states “16+-vs-9+ age split” (line 68). Even framed as a gap, this is a specific mechanics/access-number claim not traceable to an Appendix V tail per AGENTS.md §Source hierarchy #2; should be removed or de-numeralized.
+- **Potential “rumor digit” repetition:** N4 mentions “iPhone-7/8 folk benchmark” and N4 also cites “700-day-revamp meme” (line 19). If these are rumor-number tokens, the phase-2 output should avoid repeating them (your own rule: no repeated rumor digits) or clearly mark them as non-actionable shorthand without propagating specifics.
+- **Ranking rule ambiguity:** Method says ranking uses sentiment weighted order as tiebreak (line 7). Brief asks “ranked by volume where possible”; consider explicitly stating where sentiment order overrides volume order (which specific needs swapped) to keep the ranking audit-friendly.
 
-1) Ranked needs with volumes: **PASS** (tiers + volumes; N13–N14 explicitly "not separately ranked").
-2) Conflicts named w/ winner+why (digest↔digest and digest↔sentiment): **PASS (with risk)** — table is thorough, but completeness is asserted rather than evidenced.
-3) Gaps named: **PASS** (G1–G10).
-4) No server design: **PASS** (stays at need/outcome level; no channel/role/bot prescriptions).
-5) No invented game numbers; no raw comment quotes; no banned sources; card-id citations: **FAIL** (raw comment quotes present).
-6) Sentiment wins conflicts with other findings memos: **PASS** (explicit in C7; uses §6 ambiguity rules in C8–C10).
+MUST-FIX before the owner sees this:
+- Remove or rephrase all solution/structure mentions (tickets, pinning, charters, weekly updates, “somewhere for salt to go”) so Phase 2 is strictly needs/outcomes.
+- Remove the explicit “16+-vs-9+” numeric split (and any similar access numbers) unless backed by Appendix V; keep as “age-restriction rumors/confusion exist” and retain as a gap.
 
-## STRONG (up to 3)
-
-- Clear tiering and consistent volume anchoring to `comment-sentiment-findings.md` and `insights.stats.md` (e.g., N1/N2/N6).
-- Conflict table uses sentiment §6 ambiguity guardrails correctly (C8–C10), preventing common misreads.
-- Gaps section correctly quarantines date-sensitive/rumor claims (G2–G5/G9) and warns about `@fact-checker`.
-
-## WEAK (up to 5)
-
-- **Raw comment quotes violate AGENTS.md.** Line 15 repeats "I'll see y'all in 2043" and "friends we made along the way" with like counts (these are raw comment text, even if sourced from sentiment). Must remove/replace with paraphrase + cite sentiment line/section.
-- **Another raw-quote-like phrase risk:** Line 55 references QnA mockery context ("Questions, No Answers" appears indirectly in N11 via sentiment, and sentiment includes raw quotes). Keep synthesis quote-free; cite the theme only.
-- **Completeness of "every conflict" is not auditable.** The table claims coverage ("every digest-vs-digest…", line 47) but doesn't state how conflicts were enumerated (e.g., "scanned each digest's 'Tensions/Conflicts' section"). This is a risk against the brief's "every conflict" requirement.
-- **Non-EN numeric pool claims lack a pointer.** Line 45 ("4,918 non-EN quality rows…", "3,649 PT + 1,134 FR + 135 ES") need an explicit citation anchor (e.g., "from S11 digest header") to avoid looking invented.
-- **Robux range repetition is optics-risky.** Line 17 restates "400–1000 Robux" (even labeled speculation). Consider dropping the exact range in Phase 2 to reduce accidental propagation.
-
-## MUST-FIX before the owner sees this
-
-- Remove **all** raw comment quotes from the synthesis (line 15 and any others) and replace with paraphrase + sentiment § reference only.
-- Add a 1–2 line note on **how conflicts were enumerated** (so "every conflict" is defensible).
-- Add explicit source pointers for the **non-EN pool counts** (line 45 / G7).
-
-## QUESTIONS FOR OWNER
-
-- Do you want the synthesis to **avoid repeating specific rumor numbers entirely** (e.g., "400–1000 Robux") even when labeled rumor, to reduce later leakage into server messaging?
+QUESTIONS FOR OWNER:
+- None (this file should not force taste decisions), but confirm whether they want Phase-2 to include cross-cutting “enablers” (N13–N14) as non-ranked items, or keep strictly to a single ranked list.
