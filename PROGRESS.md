@@ -37,3 +37,4 @@ Append one line per session: `date — phase — what was done — output file`.
 - 2026-10-06 — Phase 1 S11 — shard digest (INS-129–INS-139) — build/digests/shard-S11-digest.md
 - 2026-10-06 — Phase 1 S12 — shard digest (INS-140–INS-152) — build/digests/shard-S12-digest.md
 - 2026-10-06 — Phase 2 — master synthesis (14 needs, 11 conflicts, 10 gaps; @reviewer 3 passes) — build/phase-2-synthesis.md
+- 2026-10-06 — Phase 2 review record — recovered @reviewer verdict (needs revision) to build/reviews/ — build/reviews/phase-2-synthesis.md
