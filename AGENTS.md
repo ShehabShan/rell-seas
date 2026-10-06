@@ -35,6 +35,7 @@ The owner is not a Discord power user. For every design choice:
 - Never call a `youcom_*` or `playwright_*` tool yourself. Delegate to `@fact-checker` with one question at a time.
 - Reasoning effort by phase: low/standard for shard digests, max for synthesis (Phase 2), concepts (Phase 3), and the blueprint (Phase 5); high for the stress test (Phase 4).
 - `@reviewer` (a different model) checks every phase from Phase 2 onward before you report to the owner. Run it; don't skip it.
+- Reviewer runs exactly ONE pass per phase. Apply its MUST-FIX items directly. Do not re-invoke @reviewer to confirm the fixes were sufficient — that is a second paid pass and is not permitted without the owner's explicit request.
 
 ## Secrets
 Never read, print, or echo the contents of `.env` or any file or value with "token", "api-key", or "secret" in its name. If you must refer to one, write `[REDACTED]`.
