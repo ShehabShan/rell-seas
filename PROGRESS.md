@@ -8,12 +8,13 @@ Read this first, every session. Update it at the end of every session.
 - Phase 2 — Synthesis: done (reviewed 3 passes; final: brief criteria PASS, AGENTS must-fix citations corrected)
 - Phase 3 — Concepts: done (reviewed 3 passes; final: PASS) — G7 resolved per owner directive (English-only + static PT/FR/ES blurb + partner-not-poach, no ongoing non-EN moderation)
 - Phase 4 — Stress test: done (@reviewer 1 pass, PASS, MUST-FIX none) — Long Watch recommended (27), Crucible runner-up (24), Ledger 23, Harbor 22
-- Phase 5 — Blueprint: not started
+- Phase 5 — Blueprint: done (@reviewer 1 pass, NEEDS REVISION, MUST-FIX 3 applied directly, no second pass) — Long Watch + Crucible/Harbor/Ledger borrowings, G7 generic + human-checked, private-log-only
 - Phase 6 — Discord setup script: not briefed yet
 - Models: builder = opencode/muse-spark-1.3-contributor-free (temporary); reviewer = vercel/openai/gpt-5.2 (permanent); fact-checker = opencode/muse-spark-1.3-contributor-free with bash:allow
 
 ## Next action
 Phase 4 complete and reviewed (PASS) — CHECKPOINT: owner chooses the concept (or asks for changes) before Phase 5.
+Phase 5 complete and reviewed (1 pass, MUST-FIX applied) — FINAL CHECKPOINT: owner approves blueprint (or asks for changes) before any Phase 6 brief. Do not start Discord setup.
 
 ## Open questions / blockers
 (none — fact-checker and reviewer smoke tests passed; probe artifacts removed)
@@ -41,3 +42,4 @@ Append one line per session: `date — phase — what was done — output file`.
 - 2026-10-06 — Phase 3 review record — saved @reviewer final verdict (PASS) to build/reviews/ — build/reviews/phase-3-concepts.md
 - 2026-10-06 — Phase 4 — stress test (4 concepts × 6 rubric rows, Long Watch recommended; @reviewer 1 pass PASS) — build/phase-4-stress-test.md
 - 2026-10-06 — Phase 4 review record — saved @reviewer verdict (PASS, MUST-FIX none) to build/reviews/ — build/reviews/phase-4-stress-test.md
+- 2026-10-06 — Phase 5 — final blueprint (Long Watch + borrowings, G7 generic + human-checked, private-log-only; @reviewer 1 pass NEEDS REVISION, 3 MUST-FIX applied, no second pass) — build/phase-5-blueprint.md
