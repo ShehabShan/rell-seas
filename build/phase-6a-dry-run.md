@@ -13,10 +13,10 @@ Bot token: `[REDACTED]` (never read, printed, or committed per AGENTS.md + phase
 - No `discord.py` / `discord.js` installed (`discord.py: False`, `discord.js: false`).
 - Available: Python 3.14 + `requests`/`httpx`/`aiohttp`, Node v25, `curl` 8.7.1 → direct Discord REST (`https://discord.com/api/v10`) is what 6a-execution would use. No bot-code dependency for 6a (6b covers hosting).
 
-## Onboarding-role finding (TASK Step 3, via @fact-checker, one question — in-session result, ledger entry pending)
+## Onboarding-role finding (confirmed via @fact-checker, ledger entry written 2026-10-06)
 - Q: can Server Settings → Onboarding assign a role automatically on completion, independent of verification level?
-- VERDICT: UNVERIFIABLE (docs reviewed, no auto-on-completion role). ANSWER: No — per in-session check, Onboarding grants roles only when a member picks an answer linked to that role; Verification Level is a separate Safety Setup gate on chatting. SOURCES: https://support.discord.com/hc/en-us/articles/11074987197975-Community-Onboarding-FAQ, https://support.discord.com/hc/en-us/articles/216679607-Verification-Levels. CHECKED: 2026-10-06. Session: ses_eef7b9390ffe7jBaAyrJGbFZGl. No `fact-ledger.md` entry was written (ledger is @fact-checker-only) — treat as not-yet-verified and re-confirm via ledger before any execution.
-- Consequence for blueprint: the "autorole on verify" replacement does NOT apply. Keep blueprint §3 mechanism: helper-bot autorole grants Watchkeeper on onboarding completion (free-tier, 6b to confirm); guaranteed fallback is Keeper batch-grant on 10–15-min check-ins. No native-only auto-role; no bot code in 6a.
+- VERDICT: CONFIRMED (native answer-linked grant). Per Discord's Community Onboarding FAQ: "When a member picks that answer, they will be granted those roles and those channels will be added to their channel list!" — roles grant only via answer-linked picks during onboarding, never bare on completion; Verification Levels separately gate sending messages, not the role grant. SOURCES: https://support.discord.com/hc/en-us/articles/11074987197975-Community-Onboarding-FAQ, https://support.discord.com/hc/en-us/articles/216679607-Verification-Levels. See `build/fact-ledger.md` (newest CHECKED entry).
+- Confirmed mechanism: a required onboarding question ("Do you accept the rules?" → single answer) linked natively to Watchkeeper grants the role automatically on completion — no bot involved. Keeper batch-grant stays only as edge-case fallback (e.g., someone who joined before onboarding was fully configured), not the primary path. No bot code in 6a; autorole removed from 6b scope.
 
 ## Would-create list (exact blueprint order; 7 categories / 14 member-visible channels + 1 private staff-only channel not counted in the 14)
 
@@ -51,21 +51,21 @@ Bot token: `[REDACTED]` (never read, printed, or committed per AGENTS.md + phase
 
 ## Roles would-create (5 rungs + 1 flair + bots, no paid roles)
 - `Castaway` (new) — read entry + introductions only until onboarding + verification gate passes; <1-day accounts stay here.
-- `Watchkeeper` — default citizen (post in Watch/Hearth/Ocean/Help/Craft + open finder/help threads + react). Grant path: helper-bot autorole on onboarding completion (6b to confirm free-tier) OR Keeper batch-grant on check-ins.
+- `Watchkeeper` — default citizen (post in Watch/Hearth/Ocean/Help/Craft + open finder/help threads + react). Grant path (native, no bot): required onboarding question ("Do you accept the rules?" → single answer) linked to this role — granted automatically on completion. Keeper batch-grant on check-ins is edge-case fallback only (e.g., joined before onboarding was fully configured).
 - `Solo Banner` — optional self-assign flair, equal standing, holdable alongside Watchkeeper/Beacon.
 - `Beacon` — earned (steady/kind/evidence-honest; helpers recognized). Grants: showcase-thread creation in `#patient-craft`, pre-queue-free `#creator-mirror` posts.
 - `Elder` — earned, rare (long tenure + sustained Beacon steadiness; never purchasable).
 - `Keeper` — operator + rare deputies only (post milestone/scam-watch, manage AutoMod queue, grant Beacon/Elder, private log).
-- Bots — `AutoMod` (system) + one helper bot in 6b (welcome-DM / reaction-role / autorole; free-tier to confirm).
+- Bots — `AutoMod` (system) + one helper bot in 6b (welcome-DM / reaction-role for Solo Banner; free-tier to confirm). No autorole needed — Watchkeeper is native via onboarding.
 
 ## Settings would-apply
 - Verification level: Medium at open (blueprint §3/§8 wording; exact native gate behavior to be confirmed from current Discord docs at execution); preset raise to High on raid/bait spike. Assigns no role by itself.
 - AutoMod: presets ON (profanity/slurs, spam/mention-flood, scam-link patterns) + custom keyword list per blueprint §8 (slur variants, lookalike-link domains, "free Robux/EAC giveaway" bait). Action for those: block + flag to `#mod-action-log`. Unsourced "EAC price / release date" assertions: flag-only (false-positive-prone) for Keeper reframe to `#receipts-and-rumors` with a rumor label — never blocked or auto-deleted for respectful criticism, per blueprint §3.
 - Slowmode: 60s `#watch-deck` + `#lantern-room` day one; 30s `#receipts-and-rumors` toggle on spikes.
-- Onboarding screen (native; blueprint-specified must-accept item #1 = fan-run disclaimer — exact native enforcement to be confirmed at execution): fan-run notice + 6 rules summary + English-only + report path → lands as Castaway.
+- Onboarding screen (native; blueprint-specified must-accept item #1 = fan-run disclaimer — exact native enforcement to be confirmed at execution): fan-run notice + 6 rules summary + English-only + report path → lands as Castaway. Includes required question "Do you accept the rules?" (single answer) linked natively to `Watchkeeper`.
 - Server description first line = fan-run disclaimer copy (§7); `#read-first-rules` pinned line 1 + topic; include alongside-claim line in milestone/scam-watch Keeper posts; asset rule ("no official game art/logos").
 - Permissions: `#milestone-board` + `#scam-watch-and-report` Keeper-post-only; `#welcome-in-pt-fr-es` locked read-only; `#mod-action-log` staff-only.
-- Out of scope for 6a (deferred to 6b): helper-bot install/config/hosting, `/report` ticket command name confirmation, expiry/label-prompt automation (best-effort only; native auto-archive + Keeper batch-handling are the guaranteed fallback).
+- Out of scope for 6a (deferred to 6b): helper-bot install/config/hosting for the `/report` command only (name to confirm free-tier), plus optionally the finder-expiry nudge at lowest priority; native auto-archive + Keeper batch-handling are the guaranteed fallback. No autorole work — Watchkeeper grant is native.
 
 ## Execution precondition (blocked until owner says go)
 Live run would use direct REST with token `[REDACTED]`, creating items in the order above, verifying each GET-after-POST, then stopping for owner review. Not started. Nothing to roll back — nothing was created.
