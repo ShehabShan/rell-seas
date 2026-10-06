@@ -1,7 +1,11 @@
 # Local-only secrets — never commit
 youtube-api-key.md
+opencode.json.bak
 
 # macOS / Python junk
 .DS_Store
 __pycache__/
 *.pyc
+
+# Playwright MCP local run artifacts — never commit
+.playwright-mcp/
