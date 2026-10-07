@@ -9,7 +9,7 @@ Scope: text drafts for owner review. No Discord calls made, `.env` never read, n
 2. The only game fact used anywhere is "RELL Seas is still unreleased," VERIFIED by `@fact-checker` this session (ledger CHECKED 2026-10-07).
 3. The milestone board launches with that single verified entry; everything else is labeled community rumor or left out.
 4. PT/FR/ES translations are drafts only — NEED NATIVE-SPEAKER CHECK, DO NOT POST UNTIL CHECKED.
-5. Creator handles are an unverified placeholder and scam-keyword patterns are proposals only — nothing here is active until the owner approves.
+5. Creator handles unverified (first mirror withheld) and no AutoMod keyword additions at launch — per owner fixes.
 
 Voice: warm, plain English, short sentences, light nautical flavor at most. Nothing here hypes, promises dates, or implies the server is official.
 
@@ -28,16 +28,16 @@ Welcome aboard. Six rules keep this ship steady:
 
 1. Argue with evidence, never insults. Compare and disagree all you like, but back it up. Name-calling gets moved or removed.
 2. Label rumors honestly. Say CONFIRMED (with a source link) or RUMOR (no source). Unsourced claims restated as fact will get a rumor tag.
-3. No harassment, hate, or dogpiling. Tired of the chant? Step away, don't swing at the crew. Report it and a Keeper will look on the next check-in.
+3. No harassment, hate, or dogpiling. Tired of the chant? Step away, don't swing at the crew. Report it and a Keeper will look as soon as one can.
 4. English only. This keeps one small crew able to read everything. (Non-English speakers: see #welcome-in-pt-fr-es.)
 5. No scams, ever. Don't post giveaway links, login links, or "free" offers. Keepers will never ask for your password or token. If it smells fishy, report it.
 6. Post in the right room. Salt goes in #watch-deck, hope in #lantern-room, claims in #receipts-and-rumors. Keepers may move or label off-course posts. Appeals are always welcome through the report path below.
 
-Solo sailors stand equal here. Crewed or solo, you're crew. (React for the Solo Banner flair if you sail alone — details in #finder.)
+Solo sailors stand equal here. Crewed or solo, you're crew. (Sailing alone? Pick the Solo Banner in Channels & Roles.)
 
 Looking for players in your language? Communities in other languages exist, but this server runs English-only and doesn't officially link any. Ask a Keeper if you need pointing in the right direction.
 
-Something wrong? Message a Keeper directly, or reply in a thread in #scam-watch-and-report. Both land in the same queue, cleared at the next check-in. (A /report command may be added later — this path will stay just as easy.)
+Something wrong? Message a Keeper directly, or reply in a thread in #scam-watch-and-report. Both land in the same queue, cleared as soon as a Keeper can. (A /report command may be added later — this path will stay just as easy.)
 ```
 
 Proposed additions (NOT rules — owner decides, none added above):
@@ -53,7 +53,7 @@ How to report a problem (pinned):
 1. Message a Keeper directly, OR
 2. Reply in a thread here in #scam-watch-and-report.
 
-Both land in one queue. A Keeper reads it at the next check-in. No one needs to be online with you.
+Both land in one queue. A Keeper reads it as soon as a Keeper can. No one needs to be online with you.
 
 What to include: what happened, where (channel + roughly when), and a screenshot or link if you have one.
 
@@ -75,7 +75,7 @@ Find your crew — or fly solo with pride.
 
 Open a thread with: playstyle (fighter / trader / explorer / chill) + faction if you have one + what you're after (crew, friend, rival, mentor).
 
-Solo? Add the Solo Banner flair to your post. Solo sailors stand equal — no crew pressure here.
+Solo? Tag your post solo-welcome. Solo sailors stand equal — no crew pressure here.
 
 Threads close after 7 quiet days. Still looking? Just post again. Lost-friend reunions welcome — title it "Reunion:" plus your old crew name.
 ```
@@ -140,8 +140,6 @@ Curated slowly by Keepers and Elders. Thin posts wait for more substance; good o
 Creators as kin, mirrored fast and credited.
 
 Sourced creator material, shared in English with a credit frame: who made it, where it lives, what it shows. Corrections from creators are always welcome and applied quickly.
-
-[PLACEHOLDER — NO CREATOR HANDLES VERIFIED THIS SESSION. Keeper: verify at least one creator handle through @fact-checker before launch, or open this room with the Week-1 mirror seed marked RUMOR/unverified. Do not invent or guess handles.]
 ```
 
 ### One-line descriptions (remaining channels — set as channel topics, not pins)
@@ -189,34 +187,20 @@ Esta es una comunidad de fans, no oficial. Este servidor funciona solo en inglé
 ```
 📌 CONFIRMED — RELL Seas is still unreleased (no announced launch date).
 Sources:
-- https://www.roblox.com/games/7089993809/RELL-Seas
-- https://rellseaswiki.com/release-date/
+- Primary: official RELL Games Discord announcements — https://discord.com/invite/rellseas
+- Release tracker (fan wiki citing official RELL Games statements, updated 2026-10-04) — https://rellseaswiki.com/release-date/
 Date posted: 2026-10-07. Fan curation — check the linked sources.
 Ledger: VERIFIED, CHECKED 2026-10-07 (@fact-checker this session).
 
 This board holds shipped facts only. It opens with one entry on purpose — a thin board that tells the truth beats a full one that guesses. New entries appear only with a primary source.
 ```
 
-### Day 7 — `#tenure-and-returns` — tag: [TENURE]
-
-```
-Tenure roll-call: when did you first set eyes on RELL Seas waters? Day-zero, Shindo days, last month — all honorable.
-
-Claim what's true, with credit. No invented lineage. Old sailors, sound off.
-
-Lantern-room honest question for the same evening: what real milestone would bring you back (or keep you here)? Wishes welcome, labeled as wishes. And the week-2 note: no fixed schedule owed — seeds appear when there's something real to say.
-```
-
-Freshness note: Day-1 milestone seeds use ONLY the still-unreleased fact (VERIFIED, CHECKED 2026-10-07). EAC/CC meanings, platform specs, prices, odds, dates, and creator handles were deliberately left unchecked and NOT used — see to-dos.
-
 ### Setup posts (NOT day seeds — pre-launch admin, posted once before Day 1)
 
 Keeper self-intro in `#introductions` — tag: [HELLO]
 
 ```
-Ahoy — I'm your Keeper. I run this fan ship solo, stopping by regularly through the day.
-
-My line: callsign Keeper / sailed from Shindo waters / crewed-by-community / I love an ocean that feels like home.
+Ahoy — I'm a Keeper here. My line: [callsign] / [where I sailed from] / [solo or crewed] / [one ocean joy].
 
 Your turn — one breath: callsign / where you sailed from / solo or looking / one ocean joy. Reactions guaranteed.
 ```
@@ -272,8 +256,6 @@ Add a line, a word for the slang glossary, or your own patience note. Author cre
 Tenure roll-call: when did you first set eyes on RELL Seas waters? Day-zero, Shindo days, last month — all honorable.
 
 Claim what's true, with credit. No invented lineage. Old sailors, sound off.
-
-Lantern-room honest question for the same evening: what real milestone would bring you back (or keep you here)? Wishes welcome, labeled as wishes. And the week-2 note: no fixed schedule owed — seeds appear when there's something real to say.
 ```
 
 Freshness note: Day-1 milestone seeds use ONLY the still-unreleased fact (VERIFIED, CHECKED 2026-10-07). EAC/CC meanings, platform specs, prices, odds, dates, and creator handles were deliberately left unchecked and NOT used — see to-dos.
@@ -298,26 +280,9 @@ Three new-member to-dos:
 
 ---
 
-## 7. AutoMod keyword proposals (PROPOSALS ONLY — nothing added; owner approves first)
+## 7. AutoMod — launch stance
 
-Discord's built-in presets already cover slurs and profanity — no lists proposed here. Each pattern below comes from `@fact-checker` (CHECKED 2026-10-07) with its source. Proposed action if approved: flag-only to the private log for Keeper review on check-ins (never auto-punish; respectful posts get reframed, not deleted).
-
-Roblox-side patterns (sources: Roblox help + anti-fraud pages):
-1. Free-Robux / generator lures — SOURCE: https://en.help.roblox.com/hc/en-us/articles/204262550-Free-Robux-or-Subscription-Generators
-2. Lookalike login domains (misspelled Roblox URLs) — SOURCE: https://about.roblox.com/frauds-and-scams
-3. Off-platform redirect links ("verify / claim off-site") — SOURCE: https://about.roblox.com/frauds-and-scams
-4. Fake verification steps asking for credentials — SOURCE: https://about.roblox.com/frauds-and-scams
-5. Password / token requests in DMs — SOURCE: https://about.roblox.com/frauds-and-scams
-
-Discord-side patterns (sources: security writeup + Discord support):
-6. Fake Nitro / gift lures — SOURCE: https://www.bitdefender.com/en-us/blog/hotforsecurity/free-discord-nitro-scam
-7. QR-login hijack attempts — SOURCE: https://support.discord.com/hc/en-us/community/posts/360056292492-QR-Code-Scams-and-how-to-prevent-them
-8. Fake verification bots DMing new members — SOURCE: https://support.discord.com/hc/en-us/community/posts/360056292492-QR-Code-Scams-and-how-to-prevent-them
-9. Impersonated staff / Keeper DMs — SOURCE: https://www.bitdefender.com/en-us/blog/hotforsecurity/free-discord-nitro-scam
-10. Token-grab / malware download links — SOURCE: https://www.bitdefender.com/en-us/blog/hotforsecurity/free-discord-nitro-scam
-11. "EAC giveaway" bait (server-specific wording of the documented giveaway-lure class) — SOURCE: https://about.roblox.com/frauds-and-scams
-
-Cap observed: 11 of max 15. Slur/profanity lists deliberately excluded (built-in presets cover them). Unsourced price/date assertions stay OUT of keyword filtering entirely (blueprint §3; Keepers reframe them by hand).
+No keyword additions at launch; Discord presets plus the existing 5 rules cover it. Revisit after real traffic.
 
 ---
 
@@ -326,8 +291,8 @@ Cap observed: 11 of max 15. Slur/profanity lists deliberately excluded (built-in
 1. Voice: warm + plain + light nautical as drafted — say the word if you want drier or saltier.
 2. Rules: no new rules invented; "Proposed additions: none." Approve wording or mark up.
 3. Translations: PT/FR/ES drafts NEED NATIVE-SPEAKER CHECK — DO NOT POST UNTIL CHECKED. (G7: generic partner language kept, no hubs named.)
-4. Creator handles: UNVERIFIED placeholder in `#creator-mirror` pin, first mirror WITHHELD (not a day seed) — verify ≥1 handle via `@fact-checker` before launch or open the room labeled as awaiting first mirror.
-5. Scam keywords (§7): 11 proposals, each sourced — approve / trim before anything is added to AutoMod. Slur lists excluded on purpose.
+4. Creator handles: NO CREATOR HANDLES VERIFIED THIS SESSION — first mirror WITHHELD (not a day seed). Keeper: verify at least one creator handle through @fact-checker before launch, or open this room with the Week-1 mirror seed marked RUMOR/unverified. Do not invent or guess handles.
+5. Scam keywords (§7): no keyword additions at launch per owner fix — revisit after real traffic.
 6. Unchecked on purpose (blueprint §10 freshness list, not used in this content): EAC/CC meanings, platform specs, prices/odds/dates, production/IP lore, social-system rules, tuning anecdotes, member counts. Re-check only if future posts need them.
 7. Manual dashboard items (unchanged from Phase 6a): onboarding must-accept setup, Community channel pointers, disclaimer pin already live — paste this content only after approving the draft. Also confirm `#finder` and `#help-desk` are forum-type channels with 7-day auto-archive (the pins assume it; the execution log does not confirm channel type).
 8. Posting order suggestion: rules + report path first, then channel pins, then Day-1 seeds.
@@ -336,4 +301,4 @@ Cap observed: 11 of max 15. Slur/profanity lists deliberately excluded (built-in
 
 - `build/phase-5-blueprint.md` §§1–8, 10 (rules substance, channel purposes, launch-week plan, disclaimer copy, freshness flags).
 - `build/phase-6a-execution-log.md` (exact channel names as created).
-- `build/fact-ledger.md` — still-unreleased VERIFIED CHECKED 2026-10-07 (sources: Roblox listing, release tracker); scam patterns VERIFIED CHECKED 2026-10-07 (4 sources listed in §7). Note: ledger shows the scam entry twice (append duplication this session) — newest CHECKED date governs either way.
+- `build/fact-ledger.md` — still-unreleased VERIFIED CHECKED 2026-10-07 (sources: official Discord announcements, release tracker); primary release-announcement channel VERIFIED CHECKED 2026-10-07 (official RELL Games Discord). Note: ledger shows the scam entry twice (append duplication this session) — newest CHECKED date governs either way.

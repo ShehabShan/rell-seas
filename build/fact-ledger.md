@@ -61,3 +61,11 @@ SOURCE: https://en.help.roblox.com/hc/en-us/articles/204262550-Free-Robux-or-Sub
 CHECKED: 2026-10-07
 TAG: VERIFIED
 ---
+---
+Q: Which official RELL Games channel (Discord, X, or YouTube) is the primary source for RELL Seas release announcements?
+VERDICT: CONFIRMED
+ANSWER: Discord is primary — the official RELL Seas Discord (discord.gg/rellseas) and RELL Games Discord (discord.gg/rellgames) host developer announcements, with guides noting developers rely on Discord as the main update hub.
+SOURCE: https://discord.com/invite/rellseas, https://discord.com/invite/rellgames, https://progameguides.com/roblox/rell-seas-trello-wiki-discord-links/
+CHECKED: 2026-10-07
+TAG: VERIFIED
+---
