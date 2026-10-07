@@ -39,7 +39,7 @@ The owner is not a Discord power user. For every design choice:
 - Every phase's git add must include build/reviews/<phase-file>.md and any new build/fact-ledger.md entries from that session — not just the primary output file.
 
 ## Secrets
-Never read, print, or echo the contents of `.env` or any file or value with "token", "api-key", or "secret" in its name. If you must refer to one, write `[REDACTED]`.
+Never read, print, cat, grep, or source .env, and never run env or printenv. The only code allowed to load .env is the Phase 6a execution script (build/scripts/phase6a_execute.py), which loads it internally and must never print it. If a secret appears in any output, stop and tell the owner.
 
 ## Where to look
 - `README.md` — the original research map and its own reading order.
@@ -48,5 +48,4 @@ Never read, print, or echo the contents of `.env` or any file or value with "tok
 - `build/skills/*.md` — the method for that phase; read the one the brief points to.
 - `build/fact-ledger.md` — already-verified facts; check before asking `@fact-checker` the same question twice.
 
-## Phase 6 (Discord setup) is not briefed yet
-Do not write or run anything that touches the Discord bot token or the live server until the owner gives an explicit new brief for Phase 6. That includes not reading `.env` speculatively.
+## Phase 6a live execution is authorized only as defined in build/briefs/phase-6a-live-execution.md. Phase 6b (custom bot) is not briefed; do not start it.

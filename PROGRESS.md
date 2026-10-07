@@ -13,8 +13,8 @@ Read this first, every session. Update it at the end of every session.
 - Models: builder = opencode/muse-spark-1.3-contributor-free (temporary); reviewer = vercel/openai/gpt-5.2 (permanent); fact-checker = opencode/muse-spark-1.3-contributor-free with bash:allow
 
 ## Next action
-Phase 4 complete and reviewed (PASS) — CHECKPOINT: owner chooses the concept (or asks for changes) before Phase 5.
-Phase 5 complete and reviewed (1 pass, MUST-FIX applied) — FINAL CHECKPOINT: owner approves blueprint (or asks for changes) before any Phase 6 brief. Do not start Discord setup.
+Phase 5 blueprint approved by owner (final checkpoint).
+Phase 6a live execution authorized per build/briefs/phase-6a-live-execution.md. Owner rotated the token and enabled Community.
 
 ## Open questions / blockers
 (none — fact-checker and reviewer smoke tests passed; probe artifacts removed)
@@ -45,3 +45,4 @@ Append one line per session: `date — phase — what was done — output file`.
 - 2026-10-06 — Phase 5 — final blueprint (Long Watch + borrowings, G7 generic + human-checked, private-log-only; @reviewer 1 pass NEEDS REVISION, 3 MUST-FIX applied, no second pass) — build/phase-5-blueprint.md
 - 2026-10-06 — Phase 6a — server-build brief + dry-run plan (no MCP/discord.py/discord.js → direct REST for execution; onboarding auto-role NO per in-session check ses_eef7b9390ffe7jBaAyrJGbFZGl, ledger pending; @reviewer 1 pass NEEDS REVISION, 4 MUST-FIX applied; live untouched, .env unread) — build/phase-6a-dry-run.md
 - 2026-10-06 — Phase 6a fixup — saved review record to build/reviews/, @fact-checker wrote onboarding-role ledger entry (CONFIRMED), added git-add discipline line to AGENTS.md — build/reviews/phase-6a-server-build.md
+- 2026-10-07 — Phase 6a live authorization — owner approved Phase 5 blueprint, authorized Phase 6a live per brief, rotated token, enabled Community — no output file
