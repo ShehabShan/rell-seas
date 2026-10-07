@@ -37,3 +37,27 @@ SOURCE: https://support.discord.com/hc/en-us/articles/11074987197975-Community-O
 CHECKED: 2026-10-06
 TAG: VERIFIED
 ---
+---
+Q: What phishing/scam link patterns and fake-giveaway lures are commonly reported as targeting Roblox and Discord users?
+VERDICT: CONFIRMED
+ANSWER: Common documented patterns are free-Robux/generator lures, lookalike login domains, off-platform links and fake verification steps on Roblox, plus fake Nitro gifts, QR-login hijacks, fake verification bots, impersonated staff DMs and token-grab malware on Discord.
+SOURCE: https://en.help.roblox.com/hc/en-us/articles/204262550-Free-Robux-or-Subscription-Generators, https://about.roblox.com/frauds-and-scams, https://www.bitdefender.com/en-us/blog/hotforsecurity/free-discord-nitro-scam, https://support.discord.com/hc/en-us/community/posts/360056292492-QR-Code-Scams-and-how-to-prevent-them
+CHECKED: 2026-10-07
+TAG: VERIFIED
+---
+---
+Q: Is RELL Seas currently released or still unreleased?
+VERDICT: CONFIRMED
+ANSWER: Still unreleased; the official Roblox listing shows no running experiences and trackers list it as pre-release with no announced launch date.
+SOURCE: https://www.roblox.com/games/7089993809/RELL-Seas, https://rellseaswiki.com/release-date/
+CHECKED: 2026-10-07
+TAG: VERIFIED
+---
+---
+Q: What phishing/scam link patterns and fake-giveaway lures are commonly reported as targeting Roblox and Discord users?
+VERDICT: CONFIRMED
+ANSWER: Common documented patterns are free-Robux/generator lures, lookalike login domains, off-platform links and fake verification steps on Roblox, plus fake Nitro gifts, QR-login hijacks, fake verification bots, impersonated staff DMs and token-grab malware on Discord.
+SOURCE: https://en.help.roblox.com/hc/en-us/articles/204262550-Free-Robux-or-Subscription-Generators, https://about.roblox.com/frauds-and-scams, https://www.bitdefender.com/en-us/blog/hotforsecurity/free-discord-nitro-scam, https://support.discord.com/hc/en-us/community/posts/360056292492-QR-Code-Scams-and-how-to-prevent-them
+CHECKED: 2026-10-07
+TAG: VERIFIED
+---
