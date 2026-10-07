@@ -48,4 +48,5 @@ Never read, print, cat, grep, or source .env, and never run env or printenv. The
 - `build/skills/*.md` — the method for that phase; read the one the brief points to.
 - `build/fact-ledger.md` — already-verified facts; check before asking `@fact-checker` the same question twice.
 
-## Phase 6a live execution is authorized only as defined in build/briefs/phase-6a-live-execution.md. Phase 6b (custom bot) is not briefed; do not start it.
+## Phase 6a (Discord setup)
+Phase 6a live execution is authorized only as defined in build/briefs/phase-6a-live-execution.md. Phase 6b (custom bot) is not briefed; do not start it.

@@ -9,6 +9,12 @@
         "playwright_*": "deny",
         "webfetch": "deny",
         "websearch": "deny",
+        "bash": {
+          "*": "allow",
+          ".env": "deny",
+          "env": "deny",
+          "printenv": "deny"
+        },
         "read": {
           "*": "allow",
           ".env": "deny",
@@ -31,6 +37,12 @@
         "playwright_*": "deny",
         "webfetch": "deny",
         "websearch": "deny",
+        "bash": {
+          "*": "allow",
+          ".env": "deny",
+          "env": "deny",
+          "printenv": "deny"
+        },
         "read": {
           "*": "allow",
           ".env": "deny",
